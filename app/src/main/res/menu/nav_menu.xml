@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_inicio"
+        android:title="Inicio"
+        android:icon="@drawable/ic_inicio"/>
+    <item
+        android:id="@+id/nav_gastos"
+        android:title="Mis gastos"
+        android:icon="@drawable/ic_gasto"/>
+    <item
+        android:id="@+id/nav_categorias"
+        android:title="Categorias"
+        android:icon="@drawable/ic_add"/>
+    <item
+        android:id="@+id/nav_estadisticas"
+        android:title="Estadisticas"
+        android:icon="@drawable/ic_estadistica"/>
+    <item
+        android:id="@+id/nav_presupuesto"
+        android:title="Presupuesto"
+        android:icon="@drawable/ic_perfil"/>
+
+    <item
+        android:id="@+id/nav_recordatorios"
+        android:title="Recordatorios"
+        android:icon="@drawable/ic_perfil"/>
+</menu>
