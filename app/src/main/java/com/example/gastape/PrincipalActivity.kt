@@ -75,7 +75,7 @@ class PrincipalActivity : AppCompatActivity() {
                     menuInferior.selectedItemId = R.id.bottom_gastos
                 }
                 R.id.nav_categorias -> {
-                    cambiarFragmento(GastoFragment())
+                    cambiarFragmento(CategoriaFragment())
                 }
                 R.id.nav_estadisticas -> {
                     cambiarFragmento(EstadisticaFragment())
